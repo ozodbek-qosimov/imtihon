@@ -1,0 +1,44 @@
+:root {
+    --bg: #2F1634;
+    --white: #fff;
+    --light-gray: #927398;
+    --gray: #6A4E70;
+    --dark-gray: #503655;
+    --light-dark: #3B2341;
+    --orange: #F25C3A;
+    --yellow: #FF852D;
+    --dark-orange: #E3432D;
+}
+
+// background
+.bg {
+    background-color: var(--bg);
+}
+
+// btn
+.btn {
+    width: 180px;
+    height: 40px;
+    padding: 10px auto;
+}
+
+.btn-white{
+    background-color: var(--white);
+    color: var(--white);
+}
+.btn-dark{
+    background-color: var(--bg);
+    border: 1px solid white;
+}
+.btn-gray{
+    background-color: var(--gray);
+}
+.btn-orange{
+    background-color: var(--orange);
+}
+.btn-dark-orange{
+    background-color: var(--dark-orange);
+}
+.btn-yellow{
+    background-color: var(--yellow);
+}
