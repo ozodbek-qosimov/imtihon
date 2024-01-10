@@ -1,7 +1,13 @@
 @import "common";
 @import "content";
-*{
+@import "typography";
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    outline: none;
+    border: none;
 }
