@@ -132,6 +132,9 @@
         margin: $i * 0.5rem;
     }
   }
+  .ml-2{
+    margin-left: 50px;
+  }
   
   //paddings
   @for $i from 0 through 5 {

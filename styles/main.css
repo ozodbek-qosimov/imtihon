@@ -300,6 +300,10 @@
   margin: 2.5rem;
 }
 
+.ml-2 {
+  margin-left: 50px;
+}
+
 .px-0 {
   padding-left: 0rem;
   padding-right: 0rem;
@@ -605,7 +609,7 @@
   display: none;
 }
 .navbar .ul-1 li {
-  width: 10%;
+  width: 35%;
 }
 .navbar .ul-1 li a {
   font-weight: bold;
@@ -614,7 +618,7 @@
 }
 .navbar .ul-2 {
   width: 100%;
-  margin-left: 250px;
+  margin-left: 200px;
 }
 .navbar .ul-2 .email {
   margin-left: 30px;
@@ -647,6 +651,11 @@
   top: 50px;
 }
 
+@media screen and (width <= 1650px) {
+  .ul-2 {
+    margin-left: -100px;
+  }
+}
 @media screen and (width <= 1000px) {
   .navbar {
     padding: 10px 20px;
@@ -658,30 +667,76 @@
 }
 @media screen and (width <= 900px) {
   .ul-1 .logo {
-    width: 150px;
-    height: 30px;
+    width: 120px !important;
+    height: 30px !important;
+  }
+  .ul-1 .li a {
+    margin-left: 1px;
+    font-size: 10px !important;
+  }
+  .ul-2 li {
+    margin-left: -50px;
+  }
+  .ul-2 img {
+    width: 15px;
+    height: 15px;
+  }
+  .ul-2 h3 {
+    font-size: 12px !important;
   }
   .ul-2 .email {
     display: none;
   }
-  .ul-2 .button1 {
+  .ul-2 button {
+    padding: 10px 10px;
+  }
+  .ul-2 button .button1 {
     display: none;
   }
-  .ul-2 .button2 {
-    display: flex;
+  .ul-2 button .button2 {
+    display: flex !important;
+  }
+  footer h1 {
+    font-size: 10px !important;
+    margin-top: -10px !important;
   }
 }
 @media screen and (width <= 600px) {
-  .ul-1 .logo2 {
-    display: flex;
+  .navbar {
+    padding: 10px;
   }
-  .ul-1 .logo {
+  .navbar .ul-1 .li {
+    margin-left: 25px !important;
+    font-size: 10px !important;
+  }
+  .navbar .ul-1 .logo {
     display: none;
   }
-  .ul-2 img, .ul-2 h3 {
+  .navbar .ul-1 .logo2 {
+    display: flex !important;
+  }
+  .navbar .ul-2 img,
+  .navbar .ul-2 h3 {
     display: none;
+  }
+  .navbar .ul-2 button {
+    margin-left: 30px;
   }
 }
+footer h1 {
+  margin-top: 100px;
+  font-size: 126px !important;
+}
+footer .container {
+  margin: 200px;
+}
+footer .container .big {
+  width: 570px;
+  height: 167px;
+  border: 1px solid var(--gray);
+  padding: 35px 0;
+}
+
 .text-14-500 {
   font-size: 14px;
   font-weight: 500;
