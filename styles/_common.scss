@@ -30,33 +30,70 @@
 .btn-white {
     background-color: var(--white);
     color: black;
+    padding: 10px 30px;
+    font-weight: bold;
+    transition: all 0.5s ease;
+    &:hover{
+        background-color: #927398;
+    }
 }
 
 .btn-dark {
     background-color: var(--bg);
-    border: 1px solid white;
+    border: 1px solid #503655;
     color: var(--white);
     padding: 10px 30px;
+    transition: all 0.5s ease;
+    &:hover{
+      background-color: #3B2341;
+    }
 }
 
 .btn-gray {
-    background-color: var(--gray);
+    background-color: var(--dark-gray);
     color: var(--white);
+    padding: 10px 30px;
+    transition: all 0.5s ease;
+    &:hover{
+      background-color:#927398;
+    }
+}
+.btn-light-dark {
+  background-color: var(--light-dark);
+  color: var(--white);
+  padding: 10px 30px;
+  transition: all 0.5s ease;
+  &:hover{
+    background-color: #503655;
+  }
 }
 
 .btn-orange {
     background-color: var(--orange);
     color: var(--white);
+    padding: 10px 30px;
+    transition: all 0.5s ease;
+    &:hover{
+      background-color: #E3432D;
+    }
 }
 
 .btn-dark-orange {
     background-color: var(--dark-orange);
     color: var(--white);
+    padding: 10px auto;
+    transition: all 0.5s ease;
+    &:hover{
+      background-color:#FF852D;
+    }
+
 }
 
 .btn-yellow {
     color: var(--white);
     background-color: var(--yellow);
+    padding: 10px auto;
+
 }
 
 .text-poppins{
@@ -259,3 +296,14 @@
   justify-content: space-around;
 }
 
+.container{
+  padding-left: 180px;
+}
+
+span{
+  color: #E3432D;
+}
+
+.w-370{
+  width: 370px;
+}

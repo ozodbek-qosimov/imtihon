@@ -10,4 +10,10 @@
     text-decoration: none;
     outline: none;
     border: none;
+    scrollbar-width:none;
 }
+    html {
+        /* For Firefox */
+        overflow-y: auto;
+        scrollbar-width: none;
+      }
