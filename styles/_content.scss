@@ -335,10 +335,13 @@ body {
     footer {
         margin: auto;
         width: 100%;
-
+        
+        .container{
+           
         h1 {
             margin-top: 100px;
-            margin-left: 170px;
+    
+            
         }
         .c5{
             .btn-2{
@@ -349,7 +352,7 @@ body {
                 }
             }
         }
-        .container {
+      
             margin: 50px 0px;
             width: 100%;
 
@@ -361,7 +364,7 @@ body {
             }
         }
 
-        .container {
+       
             .btn-1 {
                 width: 573px;
 
@@ -388,7 +391,7 @@ body {
             }
         }
 
-        .container {
+       
             .btn-2 {
                 img {
                     width: 770px;
@@ -410,7 +413,7 @@ body {
             }
         }
 
-        .container {
+        
             .trio {
                 .btn-light-dark {
                     width: 370px;
@@ -430,7 +433,7 @@ body {
                     }
                 }
             }
-        }
+        
 
         .qator {
             h3 {
@@ -500,7 +503,7 @@ body {
         .c8{
             margin-top: 150px !important;
         }
-    }
+    
    .tugadi{
     width: 100%;
     height: 112px;
@@ -511,7 +514,7 @@ body {
         color: var(--gray);
     }
    }
-}
+
 
 
 .c5_image > img{

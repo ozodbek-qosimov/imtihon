@@ -636,7 +636,8 @@
 }
 
 .container {
-  padding-left: 180px;
+  margin: 0 auto !important;
+  width: 1170px !important;
 }
 
 span {
@@ -894,19 +895,18 @@ body footer {
   margin: auto;
   width: 100%;
 }
-body footer h1 {
-  margin-top: 100px;
-  margin-left: 170px;
-}
-body footer .c5 .btn-2 {
-  margin-bottom: 300px !important;
-}
-body footer .c5 .btn-2 img {
-  margin-bottom: 300px !important;
-}
 body footer .container {
   margin: 50px 0px;
   width: 100%;
+}
+body footer .container h1 {
+  margin-top: 100px;
+}
+body footer .container .c5 .btn-2 {
+  margin-bottom: 300px !important;
+}
+body footer .container .c5 .btn-2 img {
+  margin-bottom: 300px !important;
 }
 body footer .container .big {
   width: 570px;
@@ -914,86 +914,90 @@ body footer .container .big {
   border: 1px solid var(--gray);
   padding: 35px 0;
 }
-body footer .container .btn-1 {
+body footer .btn-1 {
   width: 573px;
 }
-body footer .container .btn-1 .btn-orange {
+body footer .btn-1 .btn-orange {
   margin-top: 20px;
 }
-body footer .container .btn-2 {
+body footer .btn-2 {
   margin-top: 50px;
 }
-body footer .container .btn-2 .btn-gray {
+body footer .btn-2 .btn-gray {
   width: 470px;
 }
-body footer .c3 {
+body .c3 {
   margin-top: 100px;
 }
-body footer .c3 h3 {
+body .c3 h3 {
   margin-left: 300px;
   margin-top: 20px;
 }
-body footer .container .btn-2 img {
+body .btn-2 img {
   width: 770px;
   height: 433px;
   margin-top: 65px;
   margin-left: -170px;
 }
-body footer .container .btn-2 .images {
+body .btn-2 .images {
   width: 770px;
   gap: 170px;
   margin-top: -56px;
 }
-body footer .container .btn-2 .images img {
+body .btn-2 .images img {
   width: 194px !important;
   height: 109px !important;
 }
-body footer .container .trio .btn-light-dark {
+
+.trio .btn-light-dark {
   width: 370px;
   height: 251px;
   position: relative;
 }
-body footer .container .trio .btn-light-dark img {
+.trio .btn-light-dark img {
   position: absolute;
   top: 30px;
 }
-body footer .container .trio .btn-light-dark .btn-gray {
+.trio .btn-light-dark .btn-gray {
   width: 370px;
   height: 85px;
   position: absolute;
   bottom: 0;
 }
-body footer .qator h3 {
+
+.qator h3 {
   text-align: center;
   margin-top: 30px;
 }
-body footer .qator .btn-dark {
+.qator .btn-dark {
   width: 370px;
   height: 234px;
 }
-body footer .c4 .trio .btn-light-dark {
+
+.c4 .trio .btn-light-dark {
   width: 270px;
   height: 313px;
 }
-body footer .c4 .trio .btn-light-dark .btn-gray {
+.c4 .trio .btn-light-dark .btn-gray {
   width: 270px;
   height: 131px;
 }
-body footer .c7 .btn-1 .btn-dark {
+
+.c7 .btn-1 .btn-dark {
   width: 370px !important;
   height: 74px !important;
 }
-body footer .c7 .btn-1 .btn-orange {
+.c7 .btn-1 .btn-orange {
   width: 190px;
   height: 50px;
   cursor: pointer;
 }
-body footer .c7 .btn-2 {
+.c7 .btn-2 {
   width: 1000px;
   height: 433px;
   position: absolute;
 }
-body footer .c7 .btn-2 .relative {
+.c7 .btn-2 .relative {
   width: 770px;
   height: 433px;
   position: absolute;
@@ -1001,7 +1005,7 @@ body footer .c7 .btn-2 .relative {
   top: -110px;
   z-index: 10;
 }
-body footer .c7 .btn-2 .absolute {
+.c7 .btn-2 .absolute {
   width: 94px;
   height: 94px;
   position: absolute;
@@ -1009,17 +1013,19 @@ body footer .c7 .btn-2 .absolute {
   z-index: 100;
   left: 910px;
 }
-body footer .c8 {
+
+.c8 {
   margin-top: 150px !important;
 }
-body .tugadi {
+
+.tugadi {
   width: 100%;
   height: 112px;
   background-color: var(--light-dark);
   padding: 0 150px;
   gap: 4rem;
 }
-body .tugadi h3 {
+.tugadi h3 {
   color: var(--gray);
 }
 
