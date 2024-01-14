@@ -3,9 +3,10 @@ body {
 
     .navbar {
         width: 100%;
+        max-width: 1450px;
         height: 110px;
         padding: 20px 30px;
-
+        margin: 0 auto;
         .ul-1 {
             width: 100%;
 
@@ -508,10 +509,11 @@ body {
     width: 100%;
     height: 112px;
     background-color: var(--light-dark);
-    padding: 0 150px;
     gap: 4rem;
-    h3{
-        color: var(--gray);
+    margin-top: 50px;
+    .ozod{
+        margin: 0 auto;
+        width: 1150px;
     }
    }
 

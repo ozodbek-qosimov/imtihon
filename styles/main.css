@@ -653,8 +653,10 @@ body {
 }
 body .navbar {
   width: 100%;
+  max-width: 1450px;
   height: 110px;
   padding: 20px 30px;
+  margin: 0 auto;
 }
 body .navbar .ul-1 {
   width: 100%;
@@ -1022,11 +1024,12 @@ body .btn-2 .images img {
   width: 100%;
   height: 112px;
   background-color: var(--light-dark);
-  padding: 0 150px;
   gap: 4rem;
+  margin-top: 50px;
 }
-.tugadi h3 {
-  color: var(--gray);
+.tugadi .ozod {
+  margin: 0 auto;
+  width: 1150px;
 }
 
 .c5_image > img {
