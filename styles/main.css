@@ -30,6 +30,7 @@
   padding: 10px 30px;
   font-weight: bold;
   transition: all 0.5s ease;
+  cursor: pointer !important;
 }
 .btn-white:hover {
   background-color: #927398;
@@ -41,6 +42,7 @@
   color: var(--white);
   padding: 10px 30px;
   transition: all 0.5s ease;
+  cursor: pointer !important;
 }
 .btn-dark:hover {
   background-color: #3B2341;
@@ -51,6 +53,7 @@
   color: var(--white);
   padding: 10px 30px;
   transition: all 0.5s ease;
+  cursor: pointer !important;
 }
 .btn-gray:hover {
   background-color: #927398;
@@ -60,6 +63,7 @@
   background-color: var(--light-dark);
   color: var(--white);
   padding: 10px 30px;
+  cursor: pointer !important;
   transition: all 0.5s ease;
 }
 .btn-light-dark:hover {
@@ -71,6 +75,7 @@
   color: var(--white);
   padding: 10px 30px;
   transition: all 0.5s ease;
+  cursor: pointer !important;
 }
 .btn-orange:hover {
   background-color: #E3432D;
@@ -81,6 +86,7 @@
   color: var(--white);
   padding: 10px auto;
   transition: all 0.5s ease;
+  cursor: pointer !important;
 }
 .btn-dark-orange:hover {
   background-color: #FF852D;
@@ -90,6 +96,7 @@
   color: var(--white);
   background-color: var(--yellow);
   padding: 10px auto;
+  cursor: pointer !important;
 }
 
 .text-poppins {
@@ -663,7 +670,7 @@ body .navbar .ul-1 .li {
   width: 80px;
 }
 body .navbar .ul-1 .li .ml a {
-  margin-right: 20px !important;
+  margin-right: 30px !important;
 }
 body .navbar .ul-1 .li a {
   font-weight: bold;
@@ -671,13 +678,16 @@ body .navbar .ul-1 .li a {
   transition: all 0.5s ease;
 }
 body .navbar .ul-2 {
-  width: 100%;
-  margin-left: 190px;
+  width: 400px !important;
+  height: 30px;
+  margin-right: 300px;
   position: relative;
+  display: flex;
 }
 body .navbar .ul-2 li {
   position: absolute;
   left: 0;
+  width: 500px;
 }
 body .navbar .ul-2 li .email {
   margin-right: 20px;
@@ -685,26 +695,23 @@ body .navbar .ul-2 li .email {
 body .navbar .ul-2 li img {
   margin-left: -10px;
 }
-body .navbar .ul-2 .email {
-  margin-left: 30px;
-}
-body .navbar .ul-2 .button2 {
+body .navbar .ul-2 li .button2 {
   display: none;
 }
-body .li {
+body .navbar .li {
   display: flex;
   align-items: center;
   position: relative;
   height: 100%;
 }
-body .li a {
+body .navbar .li a {
   display: flex;
   align-items: center;
 }
-body .li .links:hover {
+body .navbar .li .links:hover {
   color: white;
 }
-body .li .links:hover:hover::before {
+body .navbar .li .links:hover:hover::before {
   content: "";
   position: absolute;
   background-color: var(--orange);
@@ -728,7 +735,7 @@ body .li .links:hover:hover::before {
   }
   body .ul-2 {
     width: 250px !important;
-    margin-right: 700px !important;
+    margin-left: 100px;
   }
   body .ul-2 li {
     width: 250px;
@@ -761,32 +768,73 @@ body .li .links:hover:hover::before {
     margin-top: -10px !important;
     margin-left: 20px !important;
   }
+  body footer .container {
+    display: flex;
+  }
   body footer .container .big {
     width: 370px !important;
   }
-  body footer .container .btn-1 {
-    width: 400px !important;
+  body footer .container {
+    display: flex;
   }
-  body footer .container .btn-1 h2 {
+  body footer .c6 {
+    margin-left: 20px;
+    display: inline;
+  }
+  body footer .c6 .btn-1 {
+    width: 400px !important;
+    margin-left: 20px;
+  }
+  body footer .c6 .btn-1 h2 {
     font-size: 34px;
     line-height: 34px;
     letter-spacing: 0em;
   }
-  body footer .container .btn-2 {
-    width: 450px;
+  body footer .c6 .btn-2 {
+    width: 400px !important;
+    box-sizing: border-box;
+    margin-right: 550px !important;
   }
-  body footer .container .btn-2 .div1 {
-    width: 300px;
+  body footer .c6 .btn-2 .div1 {
+    width: 300px !important;
+    margin-right: 300px !important;
   }
-  body footer .container .btn-2 .div1 button {
+  body footer .c6 .btn-2 .div1 button {
     width: 350px;
   }
   body footer .c5 {
     display: inline;
-    padding-left: 20px;
+    margin-left: 20px !important;
   }
-  body footer .c5 .btn-1 .btn-dark {
+  body footer .c5 h2 {
+    margin-left: 20px;
+    margin-bottom: 30px;
+  }
+  body footer .c5 .small {
+    display: inline;
+  }
+  body footer .c5 .small .btn-1 {
+    width: 860px !important;
+    margin-left: 20px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  body footer .c5 .small .btn-1 .btn-dark {
     display: flex;
+    text-align: center;
+    align-items: center;
+    width: 420px !important;
+    height: 92px;
+  }
+  body footer .c5 .small .btn-2 {
+    margin-left: 200px;
+  }
+  body footer .c5 .small .btn-2 img {
+    width: 800px !important;
+    height: 444px !important;
+  }
+  body footer .c5 .small .btn-2 .images img {
+    width: 500px;
   }
   body footer .c3 h2 {
     font-size: 34px;
@@ -804,6 +852,17 @@ body .li .links:hover:hover::before {
     font-size: 34px;
     line-height: 34px;
     letter-spacing: 0em;
+  }
+  body footer .container .btn-light-dark {
+    width: 272px !important;
+    height: 241px !important;
+  }
+  body footer .container .btn-light-dark .btn-gray {
+    width: 272px !important;
+    height: 81px !important;
+  }
+  body footer .container button {
+    margin: 50px 260px !important;
   }
   body footer .c4 .trio .btn-light-dark .btn-gray {
     width: 210px;
@@ -838,6 +897,12 @@ body footer {
 body footer h1 {
   margin-top: 100px;
   margin-left: 170px;
+}
+body footer .c5 .btn-2 {
+  margin-bottom: 300px !important;
+}
+body footer .c5 .btn-2 img {
+  margin-bottom: 300px !important;
 }
 body footer .container {
   margin: 50px 0px;
@@ -913,6 +978,49 @@ body footer .c4 .trio .btn-light-dark {
 body footer .c4 .trio .btn-light-dark .btn-gray {
   width: 270px;
   height: 131px;
+}
+body footer .c7 .btn-1 .btn-dark {
+  width: 370px !important;
+  height: 74px !important;
+}
+body footer .c7 .btn-1 .btn-orange {
+  width: 190px;
+  height: 50px;
+  cursor: pointer;
+}
+body footer .c7 .btn-2 {
+  width: 1000px;
+  height: 433px;
+  position: absolute;
+}
+body footer .c7 .btn-2 .relative {
+  width: 770px;
+  height: 433px;
+  position: absolute;
+  left: 575px;
+  top: -110px;
+  z-index: 10;
+}
+body footer .c7 .btn-2 .absolute {
+  width: 94px;
+  height: 94px;
+  position: absolute;
+  top: 60px;
+  z-index: 100;
+  left: 910px;
+}
+body footer .c8 {
+  margin-top: 150px !important;
+}
+body .tugadi {
+  width: 100%;
+  height: 112px;
+  background-color: var(--light-dark);
+  padding: 0 150px;
+  gap: 4rem;
+}
+body .tugadi h3 {
+  color: var(--gray);
 }
 
 .text-14-500 {
