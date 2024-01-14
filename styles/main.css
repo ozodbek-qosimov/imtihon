@@ -1023,6 +1023,14 @@ body .tugadi h3 {
   color: var(--gray);
 }
 
+.c5_image > img {
+  flex-grow: 1;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  height: 109px;
+}
+
 .text-14-500 {
   font-size: 14px;
   font-weight: 500;
